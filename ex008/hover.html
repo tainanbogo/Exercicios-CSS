@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover Example</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none; 
+        }
+
+        div:hover > p {
+            display: block;
+            color: aqua;
+            background-color: red;
+        }
+
+        div:hover {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hover</h1>
+    <p>Pass the mouse down below</p>
+    <div>
+        HERE
+        <p>texto escondido</p>
+    </div>
+
+    <p>The End</p>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Level</title>
+    <style>
+        h1 {
+            background-color: lightpink;
+            height: 300px;
+            width: 300px;
+            border-width: 10px;
+            border-style: solid;
+            border-color: blueviolet;
+/* shorthand do border é só escrever border: width style color*/
+
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+
+/* shorthand do padding é só escrever padding: top right bottom left se as quatro forem iguais é só escrever 1x, se colocar 2 valores ele segue a lógica cima/embaixo direita/esquerda. Pode escrever auto também nas diferentes sentidos tipo apenas na esqueda e direita. */
+            margin-top: 10px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            margin-left: 10px;
+
+/* shorthand do margin é só escrever margin: top right bottom left*/
+
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: aqua;
+/* shorthand do outline é só escrever outline: width style color*/
+        }
+
+        a {
+            border-width: 10px;
+            border-style: dotted;
+            border-color: brown;
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+           
+        }
+    </style>
+</head>
+<body>
+    <h1>Box Level</h1>
+    <p>Paragraph is also a box level, but the <a href="http://www.instagram.com">Links</a> are examples of inline level</p>
+</body>
+</html>
